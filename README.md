@@ -22,32 +22,24 @@ A **Data Engineer** with expertise in various tools and technologies including A
 ## 🔧 Skills
 - **Languages:** Python, SQL, Shell Scripting
 - **Cloud Platforms:** AWS, GCP
-- **Data Engineering:** Airflow, Mage, dbt, Snowflake
+- **Data Engineering:** Airflow, Mage, dlt, dbt, Snowflake, BigQuery, Databricks
 - **Big Data Technologies:** Hadoop, Kafka, Spark/PySpark
 - **Databases:** PostgreSQL, MySQL, Cassandra, Elasticsearch
 - **DevOps:** Docker, Terraform
 - **Other Tools:** Linux, FastAPI, Tableau
 
 ## 📈 Stats
-![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)
+![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=adityachaudhary99&show_icons=true&theme=radical)
+ 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="30" height="30" /> My Recent Projects 
+
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Hammer and Wrench" width="30" height="30" /> **Languages and Tools:**  
+[![My Skills](https://skillicons.dev/icons?i=python,sql,r,docker,terraform,aws,gcp,snowflake,databricks,llm,airflow,mage,dlt,dbt,spark,hadoop,hive,kafka,postgresql,mysql,mongodb,cassandra,elastisearch,tableau.powerbi,lookerstudio,fastapi,linux,md,git,github&perline=13)](#)
 
 ## 📫 How to reach me
 - [LinkedIn](https://www.linkedin.com/in/adityachaudhary99/)
 - [Email](adityaachaudhary2003@gmail.com)
-
- 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="30" height="30" /> My Recent Projects 
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Hammer and Wrench" width="30" height="30" /> **Languages and Tools:**  
-[![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,js,react,vite,ts,next,expressjs,nodejs,mongodb,firebase,md,git,github,vscode,jest,styledcomponents,postman,stackoverflow&perline=13)](#)
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="30" height="30" /> Github Stats 
-
- [![John's github stats](https://bad-apple-github-readme.vercel.app/api?username=adityachaudhary99&show_icons=true&count_private=true&line_height=20&icon_color=00b3ff&theme=blue-green&title_color=00b3ff)](#)
- 
- [![Top languages](https://github-readme-mwendwa.vercel.app/api/top-langs/?username=adityachaudhary99&layout=compact&count_private=true&theme=blue-green&title_color=00b3ff)](#)
-
-[![John Mwendwa's current streak](https://streak-stats.demolab.com/?user=adityachaudhary99&count_private=true&theme=blue-green&title_color=00b3ff)](#)
 
 <p align="center">
      <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
