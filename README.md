@@ -33,7 +33,8 @@ A **Data Engineer** with expertise in various tools and technologies including A
 
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Hammer and Wrench" width="30" height="30" /> **Languages and Tools:**  
-[![My Skills](https://skillicons.dev/icons?i=python,SQL,r,docker,terraform,aws,gcp,snowflake,databricks,llm,airflow,mage,dlt,dbt,spark,hadoop,hive,kafka,postgresql,mysql,mongodb,cassandra,elastisearch,tableau.powerbi,lookerstudio,fastapi,linux,md,git,github&perline=13)](#)
+[![My Skills](https://skillicons.dev/icons?i=python,r,docker,terraform,aws,gcp,snowflake,databricks,llm,airflow,mage,dlt,dbt,spark,hadoop,hive,kafka,postgresql,mysql,mongodb,cassandra,elastisearch,tableau.powerbi,lookerstudio,fastapi,linux,md,git,github&perline=13)](#)
+<a href="#"><img src="https://github.com/onemarc/tech-icons/blob/main/icons/apacheairflow.svg" width="50"></a>
 
 ## 📫 How to reach me
 - [LinkedIn](https://www.linkedin.com/in/adityachaudhary99/)
