@@ -62,13 +62,6 @@ A **Data Engineer** with expertise in various tools and technologies including A
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-## 📈 Stats
-![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=adityachaudhary99&show_icons=true&theme=radical)
-
-[![Top languages](https://github-readme-mwendwa.vercel.app/api/top-langs/?username=adityachaudhary99&layout=compact&count_private=true&theme=blue-green&title_color=00b3ff)](#)
-
-[![John Mwendwa's current streak](https://streak-stats.demolab.com/?user=adityachaudhary99&count_private=true&theme=blue-green&title_color=00b3ff)](#)
- 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="30" height="30" /> My Recent Projects 
 
 <div>
@@ -103,6 +96,13 @@ src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&
 />
 </a>
 </div>
+
+## 📈 Stats
+![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=adityachaudhary99&show_icons=true&theme=radical)
+
+[![Top languages](https://github-readme-mwendwa.vercel.app/api/top-langs/?username=adityachaudhary99&layout=compact&count_private=true&theme=blue-green&title_color=00b3ff)](#)
+
+[![John Mwendwa's current streak](https://streak-stats.demolab.com/?user=adityachaudhary99&count_private=true&theme=blue-green&title_color=00b3ff)](#)
 
 ## 📫 How to reach me
 - [LinkedIn](https://www.linkedin.com/in/adityachaudhary99/)
