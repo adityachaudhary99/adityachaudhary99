@@ -14,6 +14,7 @@ Here are some ideas to get you started:
 -->  
 
 # Hi... I'm Aditya Chaudhary  <img src="https://user-images.githubusercontent.com/72663882/171687151-bb31c996-c9d2-49c8-b593-734946893b23.gif" alt="waving hand gif" aria-hidden="true" width="40" />
+<img src="https://komarev.com/ghpvc/?username=ibrahimjelliti" alt="ibrahimjelliti" />
 
 A **Data Engineer** with expertise in various tools and technologies including AWS, GCP, Snowflake, Airflow, Mage, Docker, Terraform, Tableau, Spark/PySpark, and more. 
 
@@ -97,5 +98,4 @@ src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&
 
 <p align="center">
      <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-     <img src="https://komarev.com/ghpvc/?username=ibrahimjelliti" alt="ibrahimjelliti" />
 </p>
