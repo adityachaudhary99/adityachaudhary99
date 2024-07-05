@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->  
 
-# Hi... I'm Aditya Chaudhary  <img src="https://user-images.githubusercontent.com/72663882/171687151-bb31c996-c9d2-49c8-b593-734946893b23.gif" alt="waving hand gif" aria-hidden="true" width="40" /> <p align="center"> <img src="https://komarev.com/ghpvc/?username=adityachaudhary99" alt="adityachaudhary99" /> </p>
+# Hi... I'm Aditya Chaudhary  <img src="https://user-images.githubusercontent.com/72663882/171687151-bb31c996-c9d2-49c8-b593-734946893b23.gif" alt="waving hand gif" aria-hidden="true" width="40" /><p align="center"><img src="https://komarev.com/ghpvc/?username=adityachaudhary99" alt="adityachaudhary99" /></p>
 
 A **Data Engineer** with expertise in various tools and technologies including AWS, GCP, Snowflake, Airflow, Mage, Docker, Terraform, Tableau, Spark/PySpark, and more. 
 
