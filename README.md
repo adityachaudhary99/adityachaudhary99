@@ -94,7 +94,7 @@ src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&
 
 [![Top languages](https://github-readme-mwendwa.vercel.app/api/top-langs/?username=adityachaudhary99&layout=compact&count_private=true&theme=blue-green&title_color=00b3ff)](#)
 
-[![John Mwendwa's current streak](https://streak-stats.demolab.com/?user=adityachaudhary99&count_private=true&theme=blue-green&title_color=00b3ff)](#)
+# [![John Mwendwa's current streak](https://streak-stats.demolab.com/?user=adityachaudhary99&count_private=true&theme=blue-green&title_color=00b3ff)](#)
 
 ## 📫 How to reach me
 - [LinkedIn](https://www.linkedin.com/in/adityachaudhary99/)
