@@ -29,6 +29,7 @@ A **Data Engineer** with expertise in various tools and technologies including A
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-2496ED?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
 ![Mage](https://img.shields.io/badge/Mage-027AE3?style=for-the-badge&logo=mage&logoColor=white)
 ![dlt(dlthub)](https://img.shields.io/badge/DLT-3776AB?style=for-the-badge&logo=knowledge-graph&logoColor=white)
