@@ -48,64 +48,61 @@ I build robust data pipelines and analytics infrastructure that transform raw da
   </tr>
 </table>
 
-## 🚀 Signature Projects
-  
-  #### Parallelization Engine
-  High-performance data processing framework that leverages multi-threading for efficient workload distribution.
-  
-  #### Motor Vehicle Collision Analysis Pipeline
-  End-to-end ETL pipeline that processes traffic accident data to identify patterns and risk factors.
-  
-  #### Real Estate Analysis Pipeline
-  Data pipeline that aggregates property listing data to generate market insights and trends.
-  
-  #### LinkedIn Network Analyzer
-  Tool that extracts and processes professional network data to uncover industry trends and connection opportunities.
+## 🚀 Featured Projects
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="30" height="30" /> Project Links 
-
-<div>
-<a
-target="_blank"
-href="https://github.com/adityachaudhary99/parallelization-engine"
->
-<img
-height="80"
-alt="Parallelization-Engine repo"
-src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&repo=parallelization-engine"
-/>
-</a>
-<a
-target="_blank"
-href="https://github.com/adityachaudhary99/dataengineering-motor-vehicles-collision-analysis-project"
->
-<img
-height="80"
-alt="Dataengineering-motor-vehicles-collision-analysis repo"
-src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&repo=dataengineering-motor-vehicles-collision-analysis-project"
-/>
-</a>
-<a
-target="_blank"
-href="https://github.com/adityachaudhary99/dataengineering-real-estate-analysis-project"
->
-<img
-height="80"
-alt="Dataengineering-real-estate-analysis repo"
-src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&repo=dataengineering-real-estate-analysis-project"
-/>
-</a>
-<a
-target="_blank"
-href="https://github.com/adityachaudhary99/linkedin-scraper"
->
-<img
-height="80"
-alt="Linkedin-Scraper repo"
-src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&repo=linkedin-scraper"
-/>
-</a>
-</div>
+<table>
+  <tr>
+    <td width="60%">
+      <h3>Parallelization Engine</h3>
+      <p>High-performance data processing framework that leverages multi-threading for efficient workload distribution.</p>
+      <p><strong>Technologies:</strong> Python, Multi-threading, Parallel Processing</p>
+    </td>
+    <td>
+      <a href="https://github.com/adityachaudhary99/parallelization-engine" target="_blank">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&repo=parallelization-engine" alt="Parallelization-Engine repo"/>
+      </a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td width="60%">
+      <h3>Motor Vehicle Collision Analysis Pipeline</h3>
+      <p>End-to-end ETL pipeline that processes traffic accident data to identify patterns and risk factors.</p>
+      <p><strong>Technologies:</strong> Python, Apache Airflow, Spark, Data Visualization</p>
+    </td>
+    <td>
+      <a href="https://github.com/adityachaudhary99/dataengineering-motor-vehicles-collision-analysis-project" target="_blank">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&repo=dataengineering-motor-vehicles-collision-analysis-project" alt="Motor Vehicles Collision Analysis repo"/>
+      </a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td width="60%">
+      <h3>Real Estate Analysis Pipeline</h3>
+      <p>Data pipeline that aggregates property listing data to generate market insights and trends.</p>
+      <p><strong>Technologies:</strong> Python, DBT, Snowflake, Data Modeling</p>
+    </td>
+    <td>
+      <a href="https://github.com/adityachaudhary99/dataengineering-real-estate-analysis-project" target="_blank">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&repo=dataengineering-real-estate-analysis-project" alt="Real Estate Analysis repo"/>
+      </a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td width="60%">
+      <h3>LinkedIn Network Analyzer</h3>
+      <p>Tool that extracts and processes professional network data to uncover industry trends and connection opportunities.</p>
+      <p><strong>Technologies:</strong> Python, Selenium, BeautifulSoup, MongoDB</p>
+    </td>
+    <td>
+      <a href="https://github.com/adityachaudhary99/linkedin-scraper" target="_blank">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=adityachaudhary99&repo=linkedin-scraper" alt="LinkedIn Scraper repo"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 🏸 Life Beyond Code
 When I'm not building data pipelines, you might find me on the badminton court, swimming laps, or exploring new destinations.
