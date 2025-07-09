@@ -1,4 +1,5 @@
 <div align="center">  
+  
   # Hello, I'm Aditya Chaudhary <img src="https://user-images.githubusercontent.com/72663882/171687151-bb31c996-c9d2-49c8-b593-734946893b23.gif" alt="waving hand gif" aria-hidden="true" width="40" />
   ### Data Engineer | Backend Developer | DevOps Enthusiast
   
@@ -49,16 +50,16 @@ I build robust data pipelines and analytics infrastructure that transform raw da
 
 ## 🚀 Signature Projects
 
-### Parallelization Engine
+#### Parallelization Engine
 High-performance data processing framework that leverages multi-threading for efficient workload distribution.
 
-### Motor Vehicle Collision Analysis Pipeline
+#### Motor Vehicle Collision Analysis Pipeline
 End-to-end ETL pipeline that processes traffic accident data to identify patterns and risk factors.
 
-### Real Estate Analysis Pipeline
+#### Real Estate Analysis Pipeline
 Data pipeline that aggregates property listing data to generate market insights and trends.
 
-### LinkedIn Network Analyzer
+#### LinkedIn Network Analyzer
 Tool that extracts and processes professional network data to uncover industry trends and connection opportunities.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="30" height="30" /> Project Links 
