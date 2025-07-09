@@ -49,18 +49,18 @@ I build robust data pipelines and analytics infrastructure that transform raw da
 </table>
 
 ## 🚀 Signature Projects
-
-#### Parallelization Engine
-High-performance data processing framework that leverages multi-threading for efficient workload distribution.
-
-#### Motor Vehicle Collision Analysis Pipeline
-End-to-end ETL pipeline that processes traffic accident data to identify patterns and risk factors.
-
-#### Real Estate Analysis Pipeline
-Data pipeline that aggregates property listing data to generate market insights and trends.
-
-#### LinkedIn Network Analyzer
-Tool that extracts and processes professional network data to uncover industry trends and connection opportunities.
+  
+  #### Parallelization Engine
+  High-performance data processing framework that leverages multi-threading for efficient workload distribution.
+  
+  #### Motor Vehicle Collision Analysis Pipeline
+  End-to-end ETL pipeline that processes traffic accident data to identify patterns and risk factors.
+  
+  #### Real Estate Analysis Pipeline
+  Data pipeline that aggregates property listing data to generate market insights and trends.
+  
+  #### LinkedIn Network Analyzer
+  Tool that extracts and processes professional network data to uncover industry trends and connection opportunities.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="30" height="30" /> Project Links 
 
