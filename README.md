@@ -1,105 +1,62 @@
-<div align="center">  
-  
-  # Hello, I'm Cal <img src="https://user-images.githubusercontent.com/72663882/171687151-bb31c996-c9d2-49c8-b593-734946893b23.gif" alt="waving hand gif" aria-hidden="true" width="40" />
-  ### Distributed Systems Engineer | Infrastructure Architect | Cloud Native Developer
-  
-  [![Twitter](https://img.shields.io/badge/Twitter-Follow-lightblue)](https://x.com/thecalendre)
+<div align="center">
+
+  # Hi, I'm Cal <img src="https://user-images.githubusercontent.com/72663882/171687151-bb31c996-c9d2-49c8-b593-734946893b23.gif" alt="waving hand" aria-hidden="true" width="40" />
+  ### I build small, sharp developer tools — on a distributed-systems & data-engineering foundation
+
+  [![Portfolio](https://img.shields.io/badge/portfolio-thecalendre.tech-5fb98c)](https://thecalendre.tech)
+  [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2)](https://x.com/thecalendre)
+
 </div>
 
-## 🏗️ Infrastructure & Distributed Systems
+## 👋 What I'm about
 
-I design and build scalable distributed systems and cloud-native infrastructure that power high-performance applications across cloud and on-prem environments. My expertise spans distributed computing, container orchestration, infrastructure as code, and building resilient systems that handle massive scale.
+I ship free, open-source tools for developers — download utilities, 100% client-side web apps, MCP tooling, and AI-agent harnesses — the kind that do one job well and get out of the way. Under that: distributed systems, data engineering, and cloud-native infrastructure. Lately most of my time goes into **client-side (WASM) tools** and **AI-agent workflows**.
 
-## 💻 Tech Ecosystem
+## 🚀 Featured
+
+### [0-suite](https://github.com/adityachaudhary99/0-suite) — privacy-first browser tools · [live demo](https://0-suite.vercel.app)
+`dev0`, `web0`, `data0` & `privacy0` in one client-side Astro app: dev utilities, network lookups, DuckDB-WASM SQL over CSV/Parquet/JSON, and a PII scrubber. Nothing leaves the browser — no uploads, no API keys, no tracking.
+**Astro · TypeScript · WASM · DuckDB**
+
+### [contextdev](https://github.com/adityachaudhary99/contextdev-monitor) — market landscape cartographer
+Type a market category → an auto-built, **cited**, structured competitive landscape. Built on the context.dev API (discover → profile → synthesize); ships a pricing tracker, an honest extraction report-card, and a Claude-Code agent-skill.
+**TypeScript · Next.js**
+
+### [yank](https://github.com/adityachaudhary99/yank) — one command to download from anywhere
+HTTP, cloud, git, media, torrents — a single static Go binary with a native parallel engine (resume + checksums) that auto-dispatches to the right backend (rclone / git / yt-dlp / aria2c / curl).
+**Go · Cobra · goreleaser**
+
+### [smartloop](https://github.com/adityachaudhary99/smartloop) — a loop controller for Claude Code
+Reads each turn's transcript, judges *done / next / risk*, and drives autonomous iterations on a configurable autonomy dial (cautious / balanced / bold) behind a hard risk floor — plus opt-in in-session auto-pilot hooks.
+**TypeScript · Claude Agent SDK**
+
+### [MCP Atlas](https://github.com/adityachaudhary99/mcp-tool-deps) — MCP tool-dependency graph
+Discovers which MCP-server tools must run before others, within and across servers, and renders it as a scientific atlas. Heuristic + LLM extraction, entirely client-side.
+**TypeScript · SVG · dagre**
+
+### [Data File Viewer](https://github.com/adityachaudhary99/data-file-viewer) — binary data explorer for VS Code / Cursor
+Explore `pkl`, `h5`, `parquet`, `feather`, `arrow`, `avro`, `npy`, `mat` and more inline — a tabular / array / hierarchical viewer + profiler backed by an isolated Python venv.
+**TypeScript · Python · VS Code API**
+
+## 🔧 Also shipping / maintaining
+- **[job-hunt](https://github.com/adityachaudhary99/job-hunt)** — rank jobs from public ATS APIs (Ashby / Greenhouse / Lever / SmartRecruiters / Recruitee) into a scored spreadsheet. No headless browser, no login.
+- **[VeilGuard](https://github.com/adityachaudhary99/veilguard)** — Rust code obfuscator: AST renaming, per-string encryption, control-flow flattening, Ed25519 license keys.
+- **Hermes** — my coding agent (fork → git-worktree → parallel subagent → review → PR). I use it to upstream fixes across **openclaude, graphify, opencode, PostHog, mem0** and more.
+
+## 🧰 Tech
 
 <table>
-  <tr>
-    <td><strong>Core Languages</strong></td>
-    <td>Golang, Python, SQL</td>
-  </tr>
-  <tr>
-    <td><strong>Cloud Platforms</strong></td>
-    <td>AWS, GCP, Azure</td>
-  </tr>
-  <tr>
-    <td><strong>Container & Orchestration</strong></td>
-    <td>Docker, Kubernetes, Helm, Docker Compose</td>
-  </tr>
-  <tr>
-    <td><strong>Infrastructure as Code</strong></td>
-    <td>Terraform, Ansible, CloudFormation</td>
-  </tr>
-  <tr>
-    <td><strong>Distributed Systems</strong></td>
-    <td>Kafka, RabbitMQ, Redis, Celery, Apache Spark</td>
-  </tr>
-  <tr>
-    <td><strong>Service Mesh & Networking</strong></td>
-    <td>Nginx, etcd</td>
-  </tr>
-  <tr>
-    <td><strong>Observability</strong></td>
-    <td>Prometheus, Grafana</td>
-  </tr>
-  <tr>
-    <td><strong>Databases & Storage</strong></td>
-    <td>PostgreSQL, MongoDB, Cassandra, Elasticsearch, Redis, Snowflake</td>
-  </tr>
-  <tr>
-    <td><strong>CI/CD & Automation</strong></td>
-    <td>GitHub Actions, Jenkins, ArgoCD</td>
-  </tr>
-  <tr>
-    <td><strong>Backend Frameworks</strong></td>
-    <td>FastAPI, Gin, Flask, gRPC</td>
-  </tr>
+  <tr><td><strong>Languages</strong></td><td>Go · Python · TypeScript · Rust · SQL</td></tr>
+  <tr><td><strong>Client-side / web</strong></td><td>Astro · Next.js · React · WASM · DuckDB-WASM · WebGPU</td></tr>
+  <tr><td><strong>Agents / AI tooling</strong></td><td>Claude Code · Claude Agent SDK · MCP · mem0</td></tr>
+  <tr><td><strong>Systems / data</strong></td><td>Kafka · Redis · Celery · Spark · Airflow · DBT · PostgreSQL</td></tr>
+  <tr><td><strong>Infra / cloud</strong></td><td>Docker · Kubernetes · Terraform · AWS · GCP · Nginx</td></tr>
+  <tr><td><strong>Ship / CI</strong></td><td>goreleaser · GitHub Actions · Vercel · Cloudflare</td></tr>
 </table>
 
-## 🚀 Featured Projects
-
-### [AWS Terraform Multi-Environment Template](https://github.com/adityachaudhary99/aws-terraform-multi-env-template)
-Production-ready Infrastructure as Code template for AWS with support for dev, staging, and prod environments. Features modular architecture, remote state management, and automated provisioning of VPCs, EKS clusters, and networking infrastructure.
-
-**Tech:** Terraform · AWS · IaC · Kubernetes
-
----
-
-### [Parallelization Engine](https://github.com/adityachaudhary99/parallelization-engine)
-High-performance distributed task execution system built with Docker, Celery, and RabbitMQ. Features dynamic worker scaling, fault tolerance, message routing, dead letter queues, and monitoring dashboards for distributed workload management.
-
-**Tech:** Python · Docker · RabbitMQ · Celery · Distributed Systems
-
----
-
-### [Data File Viewer – VS/Cursor Code Extension](https://github.com/adityachaudhary99/data-file-viewer)
-VS Code extension to view and explore binary data files directly in the editor. Supports 11 formats including pkl, h5, parquet, feather, joblib, npy, npz, msgpack, arrow, avro, nc, and mat.
-
-**Tech:** TypeScript · Python · VS Code API
-
----
-
-### [Motor Vehicle Collision Analysis Pipeline](https://github.com/adityachaudhary99/dataengineering-motor-vehicles-collision-analysis-project)
-Distributed data processing pipeline built with Apache Spark and Airflow for analyzing large-scale traffic datasets. Features parallel processing, fault-tolerant workflows, and scalable compute infrastructure.
-
-**Tech:** Apache Spark · Airflow · Python · Distributed Computing
-
----
-
-### [Real Estate Analysis Pipeline](https://github.com/adityachaudhary99/dataengineering-real-estate-analysis-project)
-Cloud-native data pipeline leveraging Snowflake's distributed architecture and DBT for scalable data transformations and analytics workloads.
-
-**Tech:** DBT · Snowflake · Python
-
----
-
-### [LinkedIn Network Analyzer](https://github.com/adityachaudhary99/linkedin-scraper)
-Distributed web scraping system with MongoDB for horizontal scaling of data collection and storage across network analysis workloads.
-
-**Tech:** Python · Selenium · MongoDB
-
-## 🏸 Life Beyond Code
-When I'm not architecting distributed systems, you might find me on the badminton court, swimming laps, or exploring new destinations.
+## 🏸 Life beyond code
+When I'm not shipping tools, you'll find me on the badminton court, swimming laps, or exploring somewhere new.
 
 <p align="center">
-     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
