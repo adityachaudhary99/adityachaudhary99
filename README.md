@@ -30,7 +30,7 @@ HTTP, cloud, git, media, torrents - a single static Go binary with a native para
 Reads each turn's transcript, judges *done / next / risk*, and drives autonomous iterations on a configurable autonomy dial (cautious / balanced / bold) behind a hard risk floor - plus opt-in in-session auto-pilot hooks.
 **TypeScript · Claude Agent SDK**
 
-### [MCP Atlas](https://github.com/adityachaudhary99/mcp-tool-deps) - MCP tool-dependency graph
+### [MCP Atlas](https://github.com/adityachaudhary99/mcp-tool-deps) - MCP tool-dependency graph · [live](https://mcp-tool-deps.vercel.app/)
 Discovers which MCP-server tools must run before others, within and across servers, and renders it as a scientific atlas. Heuristic + LLM extraction, entirely client-side.
 **TypeScript · SVG · dagre**
 
