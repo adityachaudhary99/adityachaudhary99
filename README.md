@@ -14,11 +14,11 @@ I ship free, open-source tools for developers - download utilities, 100% client-
 
 ## 🚀 Featured
 
-### [0-suite](https://github.com/adityachaudhary99/0-suite) - privacy-first browser tools · [live demo](https://0-suite.vercel.app)
+### [0-suite](https://github.com/adityachaudhary99/0-suite) - privacy-first browser tools · [live](https://0-suite.vercel.app)
 `dev0`, `web0`, `data0`, `privacy0` & `ui0` in one client-side Astro app: dev utilities, network lookups, DuckDB-WASM SQL over CSV/Parquet/JSON, a PII scrubber, and UI/design helpers. Nothing leaves the browser - no uploads, no API keys, no tracking.
 **Astro · TypeScript · WASM · DuckDB**
 
-### [contextdev](https://github.com/adityachaudhary99/contextdev-monitor) - market landscape cartographer · [live demo](https://contextdev-monitor.vercel.app)
+### [contextdev](https://github.com/adityachaudhary99/contextdev-monitor) - market landscape cartographer · [live](https://contextdev-monitor.vercel.app)
 Type a market category and get an auto-built, **cited**, structured competitive landscape. Built on the context.dev API (discover, profile, synthesize); ships a pricing tracker, an honest extraction report-card, and a Claude-Code agent-skill.
 **TypeScript · Next.js**
 
