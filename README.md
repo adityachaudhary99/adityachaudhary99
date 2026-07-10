@@ -15,6 +15,7 @@
   assets/portrait.jpg, right panel is a neofetch card. The whole card links to
   thecalendre.tech (SVGs embedded as <img> can't carry per-line links on GitHub,
   so the card is one link; the X handle is shown under Contact). Stat fields
-  (repos/commits/stars/followers/lines-of-code/account age) refresh daily via
-  .github/workflows/build.yaml → today.py. Regenerate layout/art: python build_svg.py
+  (repos/contributed/stars/commits/followers/account age) refresh daily via
+  .github/workflows/build.yaml → stats.py (a few fast GraphQL queries, ~6s; no
+  lines-of-code walk). Regenerate the card layout/art: python build_svg.py
 -->

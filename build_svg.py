@@ -25,7 +25,8 @@ FIELDS = [
     ("kv", "Site", "thecalendre.tech"),
     ("kv", "Uptime", ("age_data", "on GitHub since 2021")),
     ("kv", "Focus", "distributed systems · AI-agent infra"),
-    ("kv", "Editor", "Claude Code · Neovim"),
+    ("kv", "Editor", "VS Code · Cursor"),
+    ("kv", "Harness", "Claude Code · Codex"),
     ("kv", "Langs", "Go · Rust · TypeScript · Python"),
     ("kv", "Infra", "Docker · Terraform · Airflow"),
     ("blank",),
@@ -37,13 +38,11 @@ FIELDS = [
     ("kv", "Hobbies.SW", "on-device llama.cpp · offline wiki + maps"),
     ("blank",),
     ("rule", "Contact"),
-    ("kv", "Portfolio", "thecalendre.tech"),
     ("kv", "X", "@thecalendre"),
     ("blank",),
     ("rule", "GitHub Stats"),
     ("stat_repos",),
     ("stat_commits",),
-    ("stat_loc",),
 ]
 
 THEMES = {
@@ -129,12 +128,6 @@ def render(theme):
             p.append(f'<tspan x="{NEO_X}" y="{y}">' + ts(". ", t["dim"]) + ts("Commits", t["key"]) + ts(": ", t["dim"])
                      + ts("." * nd + " ", t["cc"], "commit_data_dots") + ts("0", t["val"], "commit_data")
                      + ts(" | ", t["dim"]) + ts("Followers", t["key"]) + ts(" .. ", t["cc"], "follower_data_dots") + ts("0", t["val"], "follower_data") + "</tspan>")
-        elif kind == "stat_loc":
-            lead = ". Lines of code: "; nd = max(2, VAL_COL - len(lead))
-            p.append(f'<tspan x="{NEO_X}" y="{y}">' + ts(". ", t["dim"]) + ts("Lines of code", t["key"]) + ts(": ", t["dim"])
-                     + ts("." * nd + " ", t["cc"], "loc_data_dots") + ts("0", t["val"], "loc_data")
-                     + ts(" ( ", t["dim"]) + ts("0", t["add"], "loc_add") + ts("++", t["add"]) + ts(", ", t["dim"])
-                     + ts(" ", t["cc"], "loc_del_dots") + ts("0", t["dele"], "loc_del") + ts("--", t["dele"]) + ts(" )", t["dim"]) + "</tspan>")
         y += LH
     p.append("</text>")
     p.append("</svg>")
