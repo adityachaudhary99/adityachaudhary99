@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+cache/gen.log
+cache/fast.json
+cache/fast.err
