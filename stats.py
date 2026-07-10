@@ -86,15 +86,17 @@ def rest(path, tries=8):
 
 def repo_loc(full_name):
     """Additions/deletions I authored in one repo, from the server-computed
-    contributor-stats endpoint — no commit walk. Returns (added, deleted)."""
+    contributor-stats endpoint — no commit walk. Returns (added, deleted), or
+    None when the answer is unknown (e.g. GitHub still computing the stats
+    right after a push) so the caller can keep its cached value."""
     st, data = rest(f"/repos/{full_name}/stats/contributors")
-    if st != 200 or not data:
-        return 0, 0
+    if st != 200 or data is None:
+        return None
     for c in data:
         a = c.get("author") or {}
         if a.get("login", "").lower() == USER.lower():
             return sum(w["a"] for w in c["weeks"]), sum(w["d"] for w in c["weeks"])
-    return 0, 0
+    return 0, 0    # 200 but I'm genuinely not a contributor
 
 
 def rkey(full_name):
@@ -136,8 +138,11 @@ def loc():
         k = rkey(full)
         c = cache.get(k)
         if not (c and c.get("pushed_at") == pushed):   # changed since last run
-            a, d = repo_loc(full)
-            new_cache[k] = {"pushed_at": pushed, "add": a, "del": d}
+            r = repo_loc(full)
+            if r is None:
+                continue    # stats not ready — keep the stale entry (old
+                            # pushed_at means we retry on the next run)
+            new_cache[k] = {"pushed_at": pushed, "add": r[0], "del": r[1]}
 
     added = sum(v["add"] for v in new_cache.values())
     deleted = sum(v["del"] for v in new_cache.values())
