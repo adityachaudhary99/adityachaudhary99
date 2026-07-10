@@ -211,13 +211,15 @@ def main():
     # shrink/grow with the value length — same math as build_svg.py)
     d1, d2 = cl.repos_dots(vals["repo_data"], vals["contrib_data"], vals["star_data"])
     c1, c2 = cl.commits_dots(vals["commit_data"], vals["follower_data"])
+    l1, lpad = cl.loc_dots(vals["loc_data"], vals["loc_add"], vals["loc_del"])
     vals.update({
         "age_data_dots": "." * cl.kv_dots("Uptime", len(vals["age_data"])),
         "repo_data_dots": "." * d1,
         "star_data_dots": "." * d2,
         "commit_data_dots": "." * c1,
         "follower_data_dots": "." * c2,
-        "loc_data_dots": "." * cl.loc_dots(vals["loc_data"], vals["loc_add"], vals["loc_del"]),
+        "loc_data_dots": "." * l1,
+        "loc_pad": " " * lpad,
     })
     for fname in ("dark_mode.svg", "light_mode.svg"):
         s = open(fname, encoding="utf-8").read()
