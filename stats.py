@@ -46,12 +46,49 @@ def gql(query, variables, tries=6):
 
 def core():
     q = """query($login:String!){ user(login:$login){
+      id
       createdAt
       followers { totalCount }
       owned:   repositories(ownerAffiliations:[OWNER]) { totalCount }
       contrib: repositories(ownerAffiliations:[OWNER,COLLABORATOR,ORGANIZATION_MEMBER]) { totalCount }
     } }"""
     return gql(q, {"login": USER})["user"]
+
+
+def loc(owner_id):
+    """Sum additions/deletions across my-authored commits on every owned repo's
+    default branch. This is the slow pass (walks commit history) — fine on the
+    Action's network. Returns (added, deleted, net)."""
+    repo_q = """query($login:String!,$cursor:String){ user(login:$login){
+      repositories(ownerAffiliations:[OWNER], first:60, after:$cursor){
+        nodes { name owner { login } defaultBranchRef { target { ... on Commit {
+          history { totalCount } } } } }
+        pageInfo { hasNextPage endCursor } } } }"""
+    hist_q = """query($owner:String!,$name:String!,$cursor:String){ repository(owner:$owner,name:$name){
+      defaultBranchRef { target { ... on Commit { history(first:100, after:$cursor){
+        nodes { additions deletions author { user { id } } }
+        pageInfo { hasNextPage endCursor } } } } } } }"""
+    added = deleted = 0
+    cursor = None
+    while True:
+        repos = gql(repo_q, {"login": USER, "cursor": cursor})["user"]["repositories"]
+        for r in repos["nodes"]:
+            if not r["defaultBranchRef"]:
+                continue
+            hc = None
+            while True:
+                data = gql(hist_q, {"owner": r["owner"]["login"], "name": r["name"], "cursor": hc})
+                h = data["repository"]["defaultBranchRef"]["target"]["history"]
+                for n in h["nodes"]:
+                    if n["author"]["user"] and n["author"]["user"]["id"] == owner_id:
+                        added += n["additions"]; deleted += n["deletions"]
+                if not h["pageInfo"]["hasNextPage"]:
+                    break
+                hc = h["pageInfo"]["endCursor"]
+        if not repos["pageInfo"]["hasNextPage"]:
+            break
+        cursor = repos["pageInfo"]["endCursor"]
+    return added, deleted, added - deleted
 
 
 def stars():
@@ -100,6 +137,16 @@ def main():
         "commit_data": f"{commits(created):,}",
         "follower_data": f"{u['followers']['totalCount']:,}",
     }
+    try:
+        add, dele, net = loc(u["id"])
+        vals["loc_data"] = f"{net:,}"
+        vals["loc_add"] = f"{add:,}"
+        vals["loc_del"] = f"{dele:,}"
+    except SystemExit as e:
+        # LOC walk is the one heavy pass; if it fails (transient 5xx), keep the
+        # other stats and leave LOC pending rather than aborting the whole run.
+        print("LOC skipped:", e, file=sys.stderr)
+        vals.update(loc_data="—", loc_add="—", loc_del="—")
     for fname in ("dark_mode.svg", "light_mode.svg"):
         s = open(fname, encoding="utf-8").read()
         for k, v in vals.items():

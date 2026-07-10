@@ -1,40 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="935px" height="472px" font-family="ui-monospace,'JetBrains Mono','Cascadia Code',Consolas,monospace" font-size="14px">
-<rect width="935px" height="472px" fill="#faf9f6" rx="14"/>
-<rect x="6" y="6" width="923px" height="460px" fill="none" stroke="#e6e4dd" stroke-width="1" rx="10"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="987px" height="491px" font-family="ui-monospace,'JetBrains Mono','Cascadia Code',Consolas,monospace" font-size="14px">
+<rect width="987px" height="491px" fill="#faf9f6" rx="14"/>
+<rect x="6" y="6" width="975px" height="479px" fill="none" stroke="#e6e4dd" stroke-width="1" rx="10"/>
 <text xml:space="preserve">
-<tspan x="22" y="34" fill="#2f7d5a">⡣⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⣎</tspan>
-<tspan x="22" y="53" fill="#2f7d5a">⢕⢝⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢆</tspan>
-<tspan x="22" y="72" fill="#2f7d5a">⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢳⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕</tspan>
-<tspan x="22" y="91" fill="#2f7d5a">⠪⡢⢣⢑⢅⠇⡕⢅⢇⠕⡅⢇⢕⠱⡡⡣⡣⡑⡅⣇⡪⡪⡘⡌⡪⡘⡌⡪⡘⡌⢎⠜⡌⡪⡸⢨⠪⡘⡌⡪</tspan>
-<tspan x="22" y="110" fill="#2f7d5a">⠱⡘⢔⢑⢌⠪⡨⢢⢡⠱⡘⢌⠢⠣⡑⡌⡧⡱⣸⣩⣩⡓⢌⠪⡨⡊⢌⠪⡨⢊⠢⠣⡑⡌⡊⢆⠣⡱⢘⠌</tspan>
-<tspan x="22" y="129" fill="#2f7d5a">⢑⢌⠢⡑⠔⡑⢌⠢⠢⡑⢌⠢⡃⢕⠡⡊⢌⢒⠄⢐⠹⠨⠢⡑⠔⢌⠪⠨⠢⡑⢅⠣⡑⠌⡌⡢⢑⠌⡢⢑</tspan>
-<tspan x="22" y="148" fill="#2f7d5a">⢐⢐⠡⠨⡈⠢⡁⠪⡈⠢⢑⠨⢐⢐⢁⠎⣢⠣⡨⠠⢪⢐⢁⠪⡈⠢⠡⡑⠡⢊⠐⢌⢐⠡⢂⠌⡂⠅⡊⡐</tspan>
-<tspan x="22" y="167" fill="#2f7d5a">⠐⠄⠅⠅⠌⡂⠌⡂⠌⠌⡐⠨⢐⠐⠄⠕⡹⢀⠠⣑⣼⡯⠢⡢⠨⢈⠂⠌⠌⠄⡑⡐⠄⠅⠢⠨⠠⢁⢂⠂</tspan>
-<tspan x="22" y="186" fill="#2f7d5a">⠈⠄⠡⢈⠐⡀⢂⠐⡈⢐⠠⠁⡂⠨⠠⠁⠔⠀⢠⡠⡇⢽⣖⡐⡈⠄⠌⠨⠀⠅⡐⠠⠈⠄⠡⠈⠄⠡⠐⠈</tspan>
-<tspan x="22" y="205" fill="#2f7d5a">⠈⡀⠅⠐⢀⠐⠀⢂⠐⢀⠐⠠⠐⠐⠈⣬⡷⡦⠗⠡⠙⠉⠄⢂⣐⢐⠈⡀⠁⠂⡀⠂⡁⠌⠀⠅⠈⠄⠁⠌</tspan>
-<tspan x="22" y="224" fill="#2f7d5a">⠀⠀⠠⠈⠀⠀⢁⠀⠠⠀⠐⡀⣄⣂⡁⡻⢕⠠⢐⢤⣥⢶⢾⣾⣿⡇⠀⠠⠈⠀⠠⠀⡀⠄⠈⠀⠁⠀⠁⡀</tspan>
-<tspan x="22" y="243" fill="#2f7d5a">⣾⣼⣶⣤⣄⣅⣀⣠⣦⣾⢿⣻⣿⡿⣿⣿⣳⡿⣶⣴⣶⡻⣿⣿⣿⠧⠀⣀⣠⣠⣀⣀⣀⣀⢀⠈⠀⠈⠀⠀</tspan>
-<tspan x="22" y="262" fill="#2f7d5a">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣷⣯⣿⢿⢿⣻⣿⣟⣿⣻⡗⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣷⣷⣷</tspan>
-<tspan x="22" y="281" fill="#2f7d5a">⣿⣿⣿⣿⣿⣿⣟⣿⣿⣿⣟⣿⣿⣟⢿⣿⣿⡆⣧⣿⣾⣽⣹⣽⣝⣽⡻⢻⢻⢻⢻⢻⡻⣿⡿⣿⣿⣿⣿⣿</tspan>
-<tspan x="22" y="300" fill="#2f7d5a">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣹⣿⣿⣜⡿⣿⣿⣯⣿⣿⣿⣿⣿⣿⣽⣿⣳⣧⣯⣽⣷⣯⣷⣿⣿⣿⣽⣿⣿</tspan>
-<tspan x="22" y="319" fill="#2f7d5a">⣿⣿⣽⣝⣯⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
-<tspan x="399" y="34"><tspan fill="#1f2328" font-weight="bold">cal</tspan><tspan fill="#6a737d">@github</tspan><tspan fill="#c1c7c2"> ─────────────────────────────────────────────────</tspan></tspan>
-<tspan x="399" y="53"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Site</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">.............. </tspan><tspan fill="#1f2328">thecalendre.tech</tspan></tspan>
-<tspan x="399" y="72"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Uptime</tspan><tspan fill="#6a737d">: </tspan><tspan id="age_data_dots" fill="#c1c7c2">............ </tspan><tspan id="age_data" fill="#1f2328">4 years, 4 months, 23 days</tspan></tspan>
-<tspan x="399" y="91"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Focus</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">............. </tspan><tspan fill="#1f2328">distributed systems · AI-agent infra</tspan></tspan>
-<tspan x="399" y="110"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Editor</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">............ </tspan><tspan fill="#1f2328">VS Code · Cursor</tspan></tspan>
-<tspan x="399" y="129"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Harness</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">........... </tspan><tspan fill="#1f2328">Claude Code · Codex</tspan></tspan>
-<tspan x="399" y="148"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Langs</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">............. </tspan><tspan fill="#1f2328">Go · Rust · TypeScript · Python</tspan></tspan>
-<tspan x="399" y="167"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Infra</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">............. </tspan><tspan fill="#1f2328">Docker · Terraform · Airflow</tspan></tspan>
-<tspan x="399" y="205"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Ships.CLI</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">......... </tspan><tspan fill="#1f2328">yank · agentop</tspan></tspan>
-<tspan x="399" y="224"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Ships.Web</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">......... </tspan><tspan fill="#1f2328">0-suite · contextdev</tspan></tspan>
-<tspan x="399" y="243"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Ships.Agents</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">...... </tspan><tspan fill="#1f2328">smartloop · Hermes</tspan></tspan>
-<tspan x="399" y="281"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Hobbies.HW</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">........ </tspan><tspan fill="#1f2328">rooted OnePlus 7 Pro · Magisk + Termux</tspan></tspan>
-<tspan x="399" y="300"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Hobbies.SW</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">........ </tspan><tspan fill="#1f2328">on-device llama.cpp · offline wiki + maps</tspan></tspan>
-<tspan x="399" y="338"><tspan fill="#c1c7c2">─ </tspan><tspan fill="#1f2328" font-weight="bold">Contact</tspan><tspan fill="#c1c7c2"> ──────────────────────────────────────────────────</tspan></tspan>
-<tspan x="399" y="357"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">X</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">................. </tspan><tspan fill="#1f2328">@thecalendre</tspan></tspan>
-<tspan x="399" y="395"><tspan fill="#c1c7c2">─ </tspan><tspan fill="#1f2328" font-weight="bold">GitHub Stats</tspan><tspan fill="#c1c7c2"> ─────────────────────────────────────────────</tspan></tspan>
-<tspan x="399" y="414"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Repos</tspan><tspan fill="#6a737d">: </tspan><tspan id="repo_data_dots" fill="#c1c7c2">............. </tspan><tspan id="repo_data" fill="#1f2328">91</tspan><tspan fill="#6a737d"> {</tspan><tspan fill="#2f7d5a">Contributed</tspan><tspan fill="#6a737d">: </tspan><tspan id="contrib_data" fill="#1f2328">91</tspan><tspan fill="#6a737d">} | </tspan><tspan fill="#2f7d5a">Stars</tspan><tspan id="star_data_dots" fill="#c1c7c2"> ... </tspan><tspan id="star_data" fill="#1f2328">11</tspan></tspan>
-<tspan x="399" y="433"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Commits</tspan><tspan fill="#6a737d">: </tspan><tspan id="commit_data_dots" fill="#c1c7c2">........... </tspan><tspan id="commit_data" fill="#1f2328">991</tspan><tspan fill="#6a737d"> | </tspan><tspan fill="#2f7d5a">Followers</tspan><tspan id="follower_data_dots" fill="#c1c7c2"> .. </tspan><tspan id="follower_data" fill="#1f2328">44</tspan></tspan>
-</text>
-</svg>
+<tspan x="22" y="34" fill="#2f7d5a">▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒</tspan>
+<tspan x="22" y="53" fill="#2f7d5a">▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒</tspan>
+<tspan x="22" y="72" fill="#2f7d5a">▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒</tspan>
+<tspan x="22" y="91" fill="#2f7d5a">░░░░░░░░░░░░░░░░▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░</tspan>
+<tspan x="22" y="110" fill="#2f7d5a">░░░░░░░░░░░░░░░░░▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░</tspan>
+<tspan x="22" y="129" fill="#2f7d5a">░░░░░░░░░░░░░░░░░░▒░░░▒▒▒░░░░░░░░░░░░░░░░░░░░░</tspan>
+<tspan x="22" y="148" fill="#2f7d5a">░░░░░░░░░░░░░░░░░░▒░░▒▒▒▒░░░░░░░░░░░░░░░░░░░░░</tspan>
+<tspan x="22" y="167" fill="#2f7d5a">░░░░░░░░░░░░░░░░░░░░░░░▒░░░░░░░░░░░░░░░░░░░░░░</tspan>
+<tspan x="22" y="186" fill="#2f7d5a">░░░░░░░░░░░░░░░░░░░░░  ░░░░░░░░░░░░░░░░░░░░░░░</tspan>
+<tspan x="22" y="205" fill="#2f7d5a">░░░░░░░░░░░░░░░░░░░▒░░░░░ ░░░░░░░░░░░░░░░░░░░░</tspan>
+<tspan x="22" y="224" fill="#2f7d5a">                 ░▒░   ▒▓░░░                  </tspan>
+<tspan x="22" y="243" fill="#2f7d5a">                      ░▓▓░░                   </tspan>
+<tspan x="22" y="262" fill="#2f7d5a">                     ░▒▒▒▓░                   </tspan>
+<tspan x="22" y="281" fill="#2f7d5a">                 ░▒▒▒▒░░░                     </tspan>
+<tspan x="22" y="300" fill="#2f7d5a">                 ▒▓░░    ░░▒▓░                </tspan>
+<tspan x="22" y="319" fill="#2f7d5a">             ░▒▒░▒▒░ ░░▒▓▓█▓█░                </tspan>
+<tspan x="22" y="338" fill="#2f7d5a">▓▒▒▒░░  ░▒▒▓▓▓▓▓█▓▓▓▓▒▒▓▓▓█▓▓░                </tspan>
+<tspan x="22" y="357" fill="#2f7d5a">██████▓▓▓██▓▓▓▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▒▒▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒</tspan>
+<tspan x="22" y="376" fill="#2f7d5a">▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▓▓▓▓▓▓▒████▓████████████</tspan>
+<tspan x="22" y="395" fill="#2f7d5a">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓░▓▓▓▓▓▓▓▒▓▓▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓</tspan>
+<tspan x="22" y="414" fill="#2f7d5a">▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▒▓█▓▓▓▓█▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓</tspan>
+<tspan x="22" y="433" fill="#2f7d5a">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</tspan>
+<tspan x="22" y="452" fill="#2f7d5a">▓▓▓▓▓▒▒▓▓▓▓▓▓▓▓▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</tspan>
+<tspan x="451" y="34"><tspan fill="#1f2328" font-weight="bold">cal</tspan><tspan fill="#6a737d">@github</tspan><tspan fill="#c1c7c2"> ─────────────────────────────────────────────────</tspan></tspan>
+<tspan x="451" y="53"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Site</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">.............. </tspan><tspan fill="#1f2328">thecalendre.tech</tspan></tspan>
+<tspan x="451" y="72"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Uptime</tspan><tspan fill="#6a737d">: </tspan><tspan id="age_data_dots" fill="#c1c7c2">............ </tspan><tspan id="age_data" fill="#1f2328">4 years, 4 months, 23 days</tspan></tspan>
+<tspan x="451" y="91"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Focus</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">............. </tspan><tspan fill="#1f2328">distributed systems · AI-agent infra</tspan></tspan>
+<tspan x="451" y="110"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Editor</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">............ </tspan><tspan fill="#1f2328">VS Code · Cursor</tspan></tspan>
+<tspan x="451" y="129"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Harness</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">........... </tspan><tspan fill="#1f2328">Claude Code · Codex</tspan></tspan>
+<tspan x="451" y="148"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Langs</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">............. </tspan><tspan fill="#1f2328">Go · Rust · TypeScript · Python</tspan></tspan>
+<tspan x="451" y="167"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Infra</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">............. </tspan><tspan fill="#1f2328">Docker · Terraform · Airflow</tspan></tspan>
+<tspan x="451" y="205"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Ships.CLI</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">......... </tspan><tspan fill="#1f2328">yank · agentop</tspan></tspan>
+<tspan x="451" y="224"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Ships.Web</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">......... </tspan><tspan fill="#1f2328">0-suite · contextdev</tspan></tspan>
+<tspan x="451" y="243"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Ships.Agents</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">...... </tspan><tspan fill="#1f2328">smartloop · Hermes</tspan></tspan>
+<tspan x="451" y="281"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Hobbies.HW</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">........ </tspan><tspan fill="#1f2328">rooted OnePlus 7 Pro · Magisk + Termux</tspan></tspan>
+<tspan x="451" y="300"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Hobbies.SW</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">........ </tspan><tspan fill="#1f2328">on-device llama.cpp · offline wiki + maps</tspan></tspan>
+<tspan x="451" y="338"><tspan fill="#c1c7c2">─ </tspan><tspan fill="#1f2328" font-weight="bold">Contact</tspan><tspan fill="#c1c7c2"> ──────────────────────────────────────────────────</tspan></tspan>
+<tspan x="451" y="357"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">X</tspan><tspan fill="#6a737d">: </tspan><tspan fill="#c1c7c2">................. </tspan><tspan fill="#1f2328">@thecalendre</tspan></tspan>
+<tspan x="451" y="395"><tspan fill="#c1c7c2">─ </tspan><tspan fill="#1f2328" font-weight="bold">GitHub Stats</tspan><tspan fill="#c1c7c2"> ─────────────────────────────────────────────</tspan></tspan>
+<tspan x="451" y="414"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Repos</tspan><tspan fill="#6a737d">: </tspan><tspan id="repo_data_dots" fill="#c1c7c2">............. </tspan><tspan id="repo_data" fill="#1f2328">91</tspan><tspan fill="#6a737d"> {</tspan><tspan fill="#2f7d5a">Contributed</tspan><tspan fill="#6a737d">: </tspan><tspan id="contrib_data" fill="#1f2328">97</tspan><tspan fill="#6a737d">} | </tspan><tspan fill="#2f7d5a">Stars</tspan><tspan id="star_data_dots" fill="#c1c7c2"> ... </tspan><tspan id="star_data" fill="#1f2328">11</tspan></tspan>
+<tspan x="451" y="433"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Commits</tspan><tspan fill="#6a737d">: </tspan><tspan id="commit_data_dots" fill="#c1c7c2">........... </tspan><tspan id="commit_data" fill="#1f2328">991</tspan><tspan fill="#6a737d"> | </tspan><tspan fill="#2f7d5a">Followers</tspan><tspan id="follower_data_dots" fill="#c1c7c2"> .. </tspan><tspan id="follower_data" fill="#1f2328">44</tspan></tspan>
+<tspan x="451" y="452"><tspan fill="#6a737d">. </tspan><tspan fill="#2f7d5a">Lines of code</tspan><tspan fill="#6a737d">: </tspan><tspan id="loc_data_dots" fill="#c1c7c2">..... </tspan><tspan id="loc_data" fill="#1f2328">—</tspan><tspan fill="#6a737d"> ( </tspan><tspan id="loc_add" fill="#1a7f37">—</tspan><tspan fill="#1a7f37">++</tspan><tspan fill="#6a737d">, </tspan><tspan id="loc_del_dots" fill="#c1c7c2"> </tspan><tspan id="loc_del" fill="#cf222e">—</tspan><tspan fill="#cf222e">--</tspan><tspan fill="#6a737d"> )</tspan></tspan>
+</text></svg>

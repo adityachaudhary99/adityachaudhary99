@@ -3,3 +3,4 @@ __pycache__/
 cache/gen.log
 cache/fast.json
 cache/fast.err
+assets/_*.txt
