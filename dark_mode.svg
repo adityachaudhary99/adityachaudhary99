@@ -1,48 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980px" height="493px" font-family="ui-monospace,'JetBrains Mono','Cascadia Code',Consolas,monospace" font-size="14px">
-<rect width="980px" height="493px" fill="#0d1117" rx="14"/>
-<rect x="6" y="6" width="968px" height="481px" fill="none" stroke="#233041" stroke-width="1" rx="10"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="935px" height="491px" font-family="ui-monospace,'JetBrains Mono','Cascadia Code',Consolas,monospace" font-size="14px">
+<rect width="935px" height="491px" fill="#0d1117" rx="14"/>
+<rect x="6" y="6" width="923px" height="479px" fill="none" stroke="#233041" stroke-width="1" rx="10"/>
 <text xml:space="preserve">
-<tspan x="22" y="34" fill="#5fb98c">⡏⡯⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝⢭⡫⣝</tspan>
-<tspan x="22" y="53" fill="#5fb98c">⡇⡗⣕⢵⢱⢕⢇⢗⢕⢇⢗⢕⢇⢗⢕⢇⢗⢕⢇⢗⢕⢇⢗⢕⢇⢗⢕⢇⢗⢕⢇⢗⢕⢇⢗⢕⢇⢗⢕⢇⢏⢮</tspan>
-<tspan x="22" y="72" fill="#5fb98c">⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕</tspan>
-<tspan x="22" y="91" fill="#5fb98c">⡪⡊⢎⠜⡌⢎⢪⢊⢎⢪⠪⡊⡎⡪⢪⢊⢎⢇⢇⢣⢃⢇⢣⢃⢇⢣⢃⢇⢣⠣⡃⡇⡣⢣⢃⢇⢣⢃⢇⢣⢃⢇</tspan>
-<tspan x="22" y="110" fill="#5fb98c">⢢⢑⢅⠣⡊⡊⡢⡑⢌⠢⡑⡑⢌⢊⢢⢑⢌⠪⡆⣕⣚⢖⠕⢌⠢⡑⢌⢢⠡⡃⠕⢌⢊⢢⢑⢌⠢⡑⢌⠢⡑⡌</tspan>
-<tspan x="22" y="129" fill="#5fb98c">⡂⠆⡢⠑⢌⢂⠪⡈⡢⢑⠌⢌⠢⡑⡐⢅⠢⢡⠱⡐⠈⠝⠨⡂⢕⠨⡂⠕⡨⠨⢊⠢⢑⢐⠅⡢⢑⠌⡢⢑⠌⠢</tspan>
-<tspan x="22" y="148" fill="#5fb98c">⢐⢁⢂⢑⠐⠄⠅⢂⠂⠅⠌⢂⠂⠢⠨⢐⢈⢂⢗⠨⢈⢪⡔⡐⡐⡐⠄⡑⠠⠡⠡⢈⠂⡂⠌⡐⠄⠅⡂⠅⠌⠌</tspan>
-<tspan x="22" y="167" fill="#5fb98c">⢀⠂⠄⠂⡈⠄⢁⠂⡈⠄⢁⠂⠨⠀⠅⠐⡀⠂⠅⠀⣑⠟⣦⠡⠠⠐⠐⡀⠅⠨⠐⠐⢈⠠⠁⡐⠈⠄⠂⠨⠀⠅</tspan>
-<tspan x="22" y="186" fill="#5fb98c">⠀⠄⠂⠁⢀⠐⠀⠠⠀⠐⠀⡀⠁⠐⠈⢀⠀⣮⠧⠞⠨⠚⠉⣈⣐⡈⠀⠠⠐⠀⠁⡈⠀⠄⠂⠀⠂⡀⠁⠄⠁⡀</tspan>
-<tspan x="22" y="205" fill="#5fb98c">⠀⠀⠀⠠⠀⣀⣄⣀⡀⠂⠁⠀⡀⣅⣤⣶⣤⣼⣱⡠⡒⣺⣫⣿⣿⡀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀</tspan>
-<tspan x="22" y="224" fill="#5fb98c">⣤⣦⣤⣾⣿⣿⣿⣿⣿⣿⣶⣿⣿⣿⣿⣟⣯⣿⡾⣿⣿⣿⣽⣿⢯⣴⣶⣿⣷⣷⣶⣶⣶⣴⣴⣤⣦⣴⣾⣷⣦⣤</tspan>
-<tspan x="22" y="243" fill="#5fb98c">⣿⣿⣽⡻⣿⣯⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⡻⣿⣿⣰⣷⣯⣯⣯⣗⣟⢟⢟⢟⢟⢿⣿⣿⣿⣿⣿⣿⢿⢿⣿⣿⣿</tspan>
-<tspan x="22" y="262" fill="#5fb98c">⣟⣿⣿⣿⣿⣾⣿⢿⣯⡷⣿⣿⣿⣿⣽⣿⣷⣟⣿⣷⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣷⣷⣻⣿</tspan>
-<tspan x="22" y="281" fill="#5fb98c">⣿⣿⣿⣯⣿⣿⣿⣿⣷⣻⣝⣟⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⣽⣿⣿⣻⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿</tspan>
-<tspan x="22" y="300" fill="#5fb98c">⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣾⣾⣟⣯⣷⣿⣟⣿⣽⣟⣟⣿⡿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣻⣿⣿⣿</tspan>
-<tspan x="22" y="319" fill="#5fb98c">⣿⣿⣿⣿⣟⣯⣿⣿⣿⣿⣷⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣟⡿⣿⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿</tspan>
-<tspan x="22" y="338" fill="#5fb98c">⣿⣟⣿⢿⣿⣿⣿⣿⣿⣿⣾⣻⣿⣿⣿⣿⣿⣿⣿⣯⣿⣿⣟⡿⡿⣾⣿⣿⣿⣿⣿⣽⣿⣿⢿⣿⣟⣯⣿⣿⣿⣿</tspan>
-<tspan x="22" y="357" fill="#5fb98c">⣿⣿⣿⣿⡟⡿⡿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⡿⢿⣾⣷⣽⡾⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿</tspan>
-<tspan x="22" y="376" fill="#5fb98c">⣿⣿⣿⣿⣿⣿⣿⣾⣽⣷⣼⣽⣿⣾⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣽⣿⣯⣿⣾⣻⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷</tspan>
-<tspan x="22" y="395" fill="#5fb98c">⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣷⣯⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⡿⣿⣿⣿</tspan>
-<tspan x="22" y="414" fill="#5fb98c">⣿⣿⣿⡿⣿⣽⣯⣿⢿⣿⣿⢿⣿⣿⣿⣿⣿⣷⣿⣿⣻⢻⣽⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
-<tspan x="22" y="433" fill="#5fb98c">⣟⡿⣿⣿⣿⣻⣿⣿⣿⢫⠿⡿⣿⣿⢿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
-<tspan x="22" y="452" fill="#5fb98c">⣿⣾⣻⣟⢿⣿⣿⣿⣿⣿⣿⣮⣮⣽⢿⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣯⣿⣷⣷⣽⣽⣟⡿⣿⣿</tspan>
-<tspan x="420" y="34"><tspan fill="#e6edf3" font-weight="bold">cal</tspan><tspan fill="#42504a">@github</tspan><tspan fill="#42504a">  ──────────────────────────────</tspan></tspan>
-<tspan x="420" y="53"><tspan fill="#42504a">─ </tspan><tspan fill="#42504a">──────────────────────────────────</tspan></tspan>
-<tspan x="420" y="72"><tspan fill="#5fb98c">Site</tspan><tspan fill="#42504a"> ........... </tspan><tspan fill="#e6edf3">thecalendre.tech</tspan></tspan>
-<tspan x="420" y="91"><tspan fill="#5fb98c">Uptime</tspan><tspan id="age_data_dots" fill="#42504a"> ......... </tspan><tspan id="age_data" fill="#e6edf3">4 years, 4 months, 23 days</tspan></tspan>
-<tspan x="420" y="110"><tspan fill="#5fb98c">Focus</tspan><tspan fill="#42504a"> .......... </tspan><tspan fill="#e6edf3">distributed systems · AI-agent infra</tspan></tspan>
-<tspan x="420" y="129"><tspan fill="#5fb98c">Editor</tspan><tspan fill="#42504a"> ......... </tspan><tspan fill="#e6edf3">Claude Code · Neovim</tspan></tspan>
-<tspan x="420" y="148"><tspan fill="#5fb98c">Langs</tspan><tspan fill="#42504a"> .......... </tspan><tspan fill="#e6edf3">Go · Rust · TypeScript · Python</tspan></tspan>
-<tspan x="420" y="167"><tspan fill="#5fb98c">Infra</tspan><tspan fill="#42504a"> .......... </tspan><tspan fill="#e6edf3">Docker · Terraform · Airflow</tspan></tspan>
-<tspan x="420" y="205"><tspan fill="#5fb98c">Ships.CLI</tspan><tspan fill="#42504a"> ...... </tspan><tspan fill="#e6edf3">yank · agentop</tspan></tspan>
-<tspan x="420" y="224"><tspan fill="#5fb98c">Ships.Web</tspan><tspan fill="#42504a"> ...... </tspan><tspan fill="#e6edf3">0-suite · contextdev</tspan></tspan>
-<tspan x="420" y="243"><tspan fill="#5fb98c">Ships.Agents</tspan><tspan fill="#42504a"> ... </tspan><tspan fill="#e6edf3">smartloop · Hermes</tspan></tspan>
-<tspan x="420" y="281"><tspan fill="#42504a">─ </tspan><tspan fill="#e6edf3" font-weight="bold">Contact </tspan><tspan fill="#42504a">──────────────────────────</tspan></tspan>
-<tspan x="420" y="300"><tspan fill="#5fb98c">Portfolio</tspan><tspan fill="#42504a"> ...... </tspan><tspan fill="#e6edf3">thecalendre.tech</tspan></tspan>
-<tspan x="420" y="319"><tspan fill="#5fb98c">X</tspan><tspan fill="#42504a"> .............. </tspan><tspan fill="#e6edf3">@thecalendre</tspan></tspan>
-<tspan x="420" y="357"><tspan fill="#42504a">─ </tspan><tspan fill="#e6edf3" font-weight="bold">GitHub Stats </tspan><tspan fill="#42504a">─────────────────────</tspan></tspan>
-<tspan x="420" y="376"><tspan fill="#5fb98c">Repos</tspan><tspan id="repo_data_dots" fill="#42504a"> .... </tspan><tspan id="repo_data" fill="#e6edf3">91</tspan><tspan fill="#8b949e"> {</tspan><tspan fill="#5fb98c">Contributed</tspan><tspan fill="#8b949e">: </tspan><tspan id="contrib_data" fill="#e6edf3">97</tspan><tspan fill="#8b949e">} | </tspan><tspan fill="#5fb98c">Stars</tspan><tspan id="star_data_dots" fill="#42504a"> ... </tspan><tspan id="star_data" fill="#e6edf3">11</tspan></tspan>
-<tspan x="420" y="395"><tspan fill="#5fb98c">Commits</tspan><tspan id="commit_data_dots" fill="#42504a"> .. </tspan><tspan id="commit_data" fill="#e6edf3">—</tspan><tspan fill="#8b949e"> | </tspan><tspan fill="#5fb98c">Followers</tspan><tspan id="follower_data_dots" fill="#42504a"> .. </tspan><tspan id="follower_data" fill="#e6edf3">44</tspan></tspan>
-<tspan x="420" y="414"><tspan fill="#5fb98c">Lines of code</tspan><tspan id="loc_data_dots" fill="#42504a"> . </tspan><tspan id="loc_data" fill="#e6edf3">—</tspan><tspan fill="#8b949e"> ( </tspan><tspan id="loc_add" fill="#3fb950">—</tspan><tspan fill="#3fb950">++</tspan><tspan fill="#8b949e">, </tspan><tspan id="loc_del_dots" fill="#42504a"> </tspan><tspan id="loc_del" fill="#f85149">—</tspan><tspan fill="#f85149">--</tspan><tspan fill="#8b949e"> )</tspan></tspan>
+<tspan x="22" y="34" fill="#5fb98c">⡣⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⡎⡧⡳⡹⡜⣎</tspan>
+<tspan x="22" y="53" fill="#5fb98c">⢕⢝⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢆</tspan>
+<tspan x="22" y="72" fill="#5fb98c">⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢳⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕</tspan>
+<tspan x="22" y="91" fill="#5fb98c">⠪⡢⢣⢑⢅⠇⡕⢅⢇⠕⡅⢇⢕⠱⡡⡣⡣⡑⡅⣇⡪⡪⡘⡌⡪⡘⡌⡪⡘⡌⢎⠜⡌⡪⡸⢨⠪⡘⡌⡪</tspan>
+<tspan x="22" y="110" fill="#5fb98c">⠱⡘⢔⢑⢌⠪⡨⢢⢡⠱⡘⢌⠢⠣⡑⡌⡧⡱⣸⣩⣩⡓⢌⠪⡨⡊⢌⠪⡨⢊⠢⠣⡑⡌⡊⢆⠣⡱⢘⠌</tspan>
+<tspan x="22" y="129" fill="#5fb98c">⢑⢌⠢⡑⠔⡑⢌⠢⠢⡑⢌⠢⡃⢕⠡⡊⢌⢒⠄⢐⠹⠨⠢⡑⠔⢌⠪⠨⠢⡑⢅⠣⡑⠌⡌⡢⢑⠌⡢⢑</tspan>
+<tspan x="22" y="148" fill="#5fb98c">⢐⢐⠡⠨⡈⠢⡁⠪⡈⠢⢑⠨⢐⢐⢁⠎⣢⠣⡨⠠⢪⢐⢁⠪⡈⠢⠡⡑⠡⢊⠐⢌⢐⠡⢂⠌⡂⠅⡊⡐</tspan>
+<tspan x="22" y="167" fill="#5fb98c">⠐⠄⠅⠅⠌⡂⠌⡂⠌⠌⡐⠨⢐⠐⠄⠕⡹⢀⠠⣑⣼⡯⠢⡢⠨⢈⠂⠌⠌⠄⡑⡐⠄⠅⠢⠨⠠⢁⢂⠂</tspan>
+<tspan x="22" y="186" fill="#5fb98c">⠈⠄⠡⢈⠐⡀⢂⠐⡈⢐⠠⠁⡂⠨⠠⠁⠔⠀⢠⡠⡇⢽⣖⡐⡈⠄⠌⠨⠀⠅⡐⠠⠈⠄⠡⠈⠄⠡⠐⠈</tspan>
+<tspan x="22" y="205" fill="#5fb98c">⠈⡀⠅⠐⢀⠐⠀⢂⠐⢀⠐⠠⠐⠐⠈⣬⡷⡦⠗⠡⠙⠉⠄⢂⣐⢐⠈⡀⠁⠂⡀⠂⡁⠌⠀⠅⠈⠄⠁⠌</tspan>
+<tspan x="22" y="224" fill="#5fb98c">⠀⠀⠠⠈⠀⠀⢁⠀⠠⠀⠐⡀⣄⣂⡁⡻⢕⠠⢐⢤⣥⢶⢾⣾⣿⡇⠀⠠⠈⠀⠠⠀⡀⠄⠈⠀⠁⠀⠁⡀</tspan>
+<tspan x="22" y="243" fill="#5fb98c">⣾⣼⣶⣤⣄⣅⣀⣠⣦⣾⢿⣻⣿⡿⣿⣿⣳⡿⣶⣴⣶⡻⣿⣿⣿⠧⠀⣀⣠⣠⣀⣀⣀⣀⢀⠈⠀⠈⠀⠀</tspan>
+<tspan x="22" y="262" fill="#5fb98c">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣷⣯⣿⢿⢿⣻⣿⣟⣿⣻⡗⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣷⣷⣷</tspan>
+<tspan x="22" y="281" fill="#5fb98c">⣿⣿⣿⣿⣿⣿⣟⣿⣿⣿⣟⣿⣿⣟⢿⣿⣿⡆⣧⣿⣾⣽⣹⣽⣝⣽⡻⢻⢻⢻⢻⢻⡻⣿⡿⣿⣿⣿⣿⣿</tspan>
+<tspan x="22" y="300" fill="#5fb98c">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣹⣿⣿⣜⡿⣿⣿⣯⣿⣿⣿⣿⣿⣿⣽⣿⣳⣧⣯⣽⣷⣯⣷⣿⣿⣿⣽⣿⣿</tspan>
+<tspan x="22" y="319" fill="#5fb98c">⣿⣿⣽⣝⣯⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+<tspan x="399" y="34"><tspan fill="#e6edf3" font-weight="bold">cal</tspan><tspan fill="#8b949e">@github</tspan><tspan fill="#42504a"> ─────────────────────────────────────────────────</tspan></tspan>
+<tspan x="399" y="53"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Site</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">.............. </tspan><tspan fill="#e6edf3">thecalendre.tech</tspan></tspan>
+<tspan x="399" y="72"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Uptime</tspan><tspan fill="#8b949e">: </tspan><tspan id="age_data_dots" fill="#42504a">............ </tspan><tspan id="age_data" fill="#e6edf3">4 years, 4 months, 23 days</tspan></tspan>
+<tspan x="399" y="91"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Focus</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">............. </tspan><tspan fill="#e6edf3">distributed systems · AI-agent infra</tspan></tspan>
+<tspan x="399" y="110"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Editor</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">............ </tspan><tspan fill="#e6edf3">Claude Code · Neovim</tspan></tspan>
+<tspan x="399" y="129"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Langs</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">............. </tspan><tspan fill="#e6edf3">Go · Rust · TypeScript · Python</tspan></tspan>
+<tspan x="399" y="148"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Infra</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">............. </tspan><tspan fill="#e6edf3">Docker · Terraform · Airflow</tspan></tspan>
+<tspan x="399" y="186"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Ships.CLI</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">......... </tspan><tspan fill="#e6edf3">yank · agentop</tspan></tspan>
+<tspan x="399" y="205"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Ships.Web</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">......... </tspan><tspan fill="#e6edf3">0-suite · contextdev</tspan></tspan>
+<tspan x="399" y="224"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Ships.Agents</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">...... </tspan><tspan fill="#e6edf3">smartloop · Hermes</tspan></tspan>
+<tspan x="399" y="262"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Hobbies.HW</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">........ </tspan><tspan fill="#e6edf3">rooted OnePlus 7 Pro · Magisk + Termux</tspan></tspan>
+<tspan x="399" y="281"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Hobbies.SW</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">........ </tspan><tspan fill="#e6edf3">on-device llama.cpp · offline wiki + maps</tspan></tspan>
+<tspan x="399" y="319"><tspan fill="#42504a">─ </tspan><tspan fill="#e6edf3" font-weight="bold">Contact</tspan><tspan fill="#42504a"> ──────────────────────────────────────────────────</tspan></tspan>
+<tspan x="399" y="338"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Portfolio</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">......... </tspan><tspan fill="#e6edf3">thecalendre.tech</tspan></tspan>
+<tspan x="399" y="357"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">X</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#42504a">................. </tspan><tspan fill="#e6edf3">@thecalendre</tspan></tspan>
+<tspan x="399" y="395"><tspan fill="#42504a">─ </tspan><tspan fill="#e6edf3" font-weight="bold">GitHub Stats</tspan><tspan fill="#42504a"> ─────────────────────────────────────────────</tspan></tspan>
+<tspan x="399" y="414"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Repos</tspan><tspan fill="#8b949e">: </tspan><tspan id="repo_data_dots" fill="#42504a">............. </tspan><tspan id="repo_data" fill="#e6edf3">91</tspan><tspan fill="#8b949e"> {</tspan><tspan fill="#5fb98c">Contributed</tspan><tspan fill="#8b949e">: </tspan><tspan id="contrib_data" fill="#e6edf3">97</tspan><tspan fill="#8b949e">} | </tspan><tspan fill="#5fb98c">Stars</tspan><tspan id="star_data_dots" fill="#42504a"> ... </tspan><tspan id="star_data" fill="#e6edf3">11</tspan></tspan>
+<tspan x="399" y="433"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Commits</tspan><tspan fill="#8b949e">: </tspan><tspan id="commit_data_dots" fill="#42504a">........... </tspan><tspan id="commit_data" fill="#e6edf3">—</tspan><tspan fill="#8b949e"> | </tspan><tspan fill="#5fb98c">Followers</tspan><tspan id="follower_data_dots" fill="#42504a"> .. </tspan><tspan id="follower_data" fill="#e6edf3">44</tspan></tspan>
+<tspan x="399" y="452"><tspan fill="#8b949e">. </tspan><tspan fill="#5fb98c">Lines of code</tspan><tspan fill="#8b949e">: </tspan><tspan id="loc_data_dots" fill="#42504a">..... </tspan><tspan id="loc_data" fill="#e6edf3">—</tspan><tspan fill="#8b949e"> ( </tspan><tspan id="loc_add" fill="#3fb950">—</tspan><tspan fill="#3fb950">++</tspan><tspan fill="#8b949e">, </tspan><tspan id="loc_del_dots" fill="#42504a"> </tspan><tspan id="loc_del" fill="#f85149">—</tspan><tspan fill="#f85149">--</tspan><tspan fill="#8b949e"> )</tspan></tspan>
 </text>
-<rect x="420" y="421" width="8" height="14" fill="#5fb98c"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" repeatCount="indefinite"/></rect>
 </svg>

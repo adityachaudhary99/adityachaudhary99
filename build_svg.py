@@ -1,46 +1,49 @@
 #!/usr/bin/env python3
 """Generate dark_mode.svg + light_mode.svg for the profile README.
 
-Rendering rules (GitHub-safe — learned the hard way):
-  * GitHub sanitizes README SVGs: it strips <script> and CSS @keyframes/animation,
-    and may drop <style> blocks. So we use NO CSS animation and NO opacity tricks —
-    every element is painted with an inline `fill` and is visible by default. A
-    template that hides text behind stripped CSS renders as an EMPTY card.
-  * The only motion is a blinking cursor via a SMIL <animate> (SMIL is allowed on
-    GitHub). If it were ever stripped, the cursor just stays solid — still visible.
+Style: neofetch card in the Andrew6rant layout — ". Key: ....... value" with
+dot-leaders aligning all values to one column, full-width section rules, a top
+`cal@github ────` rule. No cursor.
+
+GitHub-safe rendering (learned the hard way): GitHub strips <style> and CSS
+@keyframes/animation from README SVGs. So NO CSS animation, NO opacity tricks —
+every element has an inline `fill` and is visible by default. (A template that
+hides text behind stripped CSS renders as an EMPTY card.)
 
 Left panel  : Braille art (assets/portrait.braille.txt).
-Right panel : neofetch card; stat values carry the ids today.py fills with live
-              GitHub data (age/repo/contrib/star/commit/follower/loc).
-Run:  python build_svg.py   (re-run after editing art or FIELDS; then today.py
-      re-injects the live numbers)
+Right panel : neofetch; stat values carry the ids today.py fills with live data.
+Run: python build_svg.py   (then today.py re-injects live numbers)
 """
 from html import escape
 
 ART = open("assets/portrait.braille.txt", encoding="utf-8").read().splitlines()
 
+# ("kv", key, value)  value=str or (id, placeholder) for a live-data field.
+# ("rule", label|None)  ("head", name, tail)  ("blank",)  ("stat_*",)
 FIELDS = [
     ("head", "cal", "@github"),
-    ("rule", None, None),
     ("kv", "Site", "thecalendre.tech"),
     ("kv", "Uptime", ("age_data", "on GitHub since 2021")),
     ("kv", "Focus", "distributed systems · AI-agent infra"),
     ("kv", "Editor", "Claude Code · Neovim"),
     ("kv", "Langs", "Go · Rust · TypeScript · Python"),
     ("kv", "Infra", "Docker · Terraform · Airflow"),
-    ("blank", None, None),
+    ("blank",),
     ("kv", "Ships.CLI", "yank · agentop"),
     ("kv", "Ships.Web", "0-suite · contextdev"),
     ("kv", "Ships.Agents", "smartloop · Hermes"),
-    ("blank", None, None),
-    ("rule", "Contact", None),
+    ("blank",),
+    ("kv", "Hobbies.HW", "rooted OnePlus 7 Pro · Magisk + Termux"),
+    ("kv", "Hobbies.SW", "on-device llama.cpp · offline wiki + maps"),
+    ("blank",),
+    ("rule", "Contact"),
     ("kv", "Portfolio", "thecalendre.tech"),
     ("kv", "X", "@thecalendre"),
-    ("blank", None, None),
-    ("rule", "GitHub Stats", None),
-    ("stat_repos", None, None),
-    ("stat_commits", None, None),
-    ("stat_loc", None, None),
+    ("blank",),
+    ("rule", "GitHub Stats"),
+    ("stat_repos",),
+    ("stat_commits",),
+    ("stat_loc",),
 ]
 
 THEMES = {
@@ -56,16 +59,32 @@ FS = 14
 LH = 19
 ART_X = 22
 ART_COLS = max((len(l) for l in ART), default=0)
-NEO_X = ART_X + int(ART_COLS * FS * 0.62) + 34
+NEO_X = ART_X + int(ART_COLS * FS * 0.62) + 30
+NEO_CHARS = 60          # right-column width in chars
+VAL_COL = 22            # column (chars from line start) where values begin
 TOP = 34
-WIDTH = NEO_X + 560
-HEIGHT = TOP + max(len(ART), len(FIELDS)) * LH + 22
+WIDTH = NEO_X + int(NEO_CHARS * FS * 0.62) + 16
+HEIGHT = TOP + max(len(ART), sum(1 for f in FIELDS)) * LH + 20
 FONT = "ui-monospace,'JetBrains Mono','Cascadia Code',Consolas,monospace"
 
 
 def ts(text, fill, tid=None):
     idattr = f' id="{tid}"' if tid else ""
     return f'<tspan{idattr} fill="{fill}">{escape(text)}</tspan>'
+
+
+def kv_row(t, key, val, y):
+    """. Key: ....... value  — dots pad so values align at VAL_COL."""
+    lead = f'. {key}: '
+    ndots = max(2, VAL_COL - len(lead))
+    row = f'<tspan x="{NEO_X}" y="{y}">'
+    row += ts(". ", t["dim"]) + ts(key, t["key"]) + ts(": ", t["dim"])
+    if isinstance(val, tuple):
+        vid, vtext = val
+        row += ts("." * ndots + " ", t["cc"], vid + "_dots") + ts(vtext, t["val"], vid)
+    else:
+        row += ts("." * ndots + " ", t["cc"]) + ts(val, t["val"])
+    return row + "</tspan>"
 
 
 def render(theme):
@@ -77,48 +96,47 @@ def render(theme):
              f'stroke="{t["frame"]}" stroke-width="1" rx="10"/>')
     p.append('<text xml:space="preserve">')
 
-    # left: braille art
     for i, line in enumerate(ART):
         p.append(f'<tspan x="{ART_X}" y="{TOP + i*LH}" fill="{t["art"]}">{escape(line)}</tspan>')
 
-    # right: neofetch
     y = TOP
-    for kind, a, b in FIELDS:
+    for f in FIELDS:
+        kind = f[0]
         if kind == "blank":
             y += LH; continue
-        row = f'<tspan x="{NEO_X}" y="{y}">'
         if kind == "head":
-            row += (f'<tspan fill="{t["fg"]}" font-weight="bold">{escape(a)}</tspan>'
-                    + ts(b, t["cc"]) + ts("  " + "─"*30, t["cc"]))
+            _, name, tail = f
+            rule = "─" * max(4, NEO_CHARS - len(name) - len(tail) - 1)
+            p.append(f'<tspan x="{NEO_X}" y="{y}">'
+                     + f'<tspan fill="{t["fg"]}" font-weight="bold">{escape(name)}</tspan>'
+                     + ts(tail, t["dim"]) + ts(" " + rule, t["cc"]) + "</tspan>")
         elif kind == "rule":
-            label = f'<tspan fill="{t["fg"]}" font-weight="bold">{escape(a)} </tspan>' if a else ""
-            dash = "─" * (34 - (len(a)+1 if a else 0))
-            row += ts("─ ", t["cc"]) + label + ts(dash, t["cc"])
+            label = f[1]
+            rule = "─" * max(4, NEO_CHARS - len(label) - 3)
+            p.append(f'<tspan x="{NEO_X}" y="{y}">' + ts("─ ", t["cc"])
+                     + f'<tspan fill="{t["fg"]}" font-weight="bold">{escape(label)}</tspan>'
+                     + ts(" " + rule, t["cc"]) + "</tspan>")
         elif kind == "kv":
-            pad = max(3, 15 - len(a))
-            if isinstance(b, tuple):
-                vid, vtext = b
-                row += ts(a, t["key"]) + ts(f' {"."*pad} ', t["cc"], vid+"_dots") + ts(vtext, t["val"], vid)
-            else:
-                row += ts(a, t["key"]) + ts(f' {"."*pad} ', t["cc"]) + ts(b, t["val"])
+            p.append(kv_row(t, f[1], f[2], y))
         elif kind == "stat_repos":
-            row += (ts("Repos", t["key"]) + ts(" .... ", t["cc"], "repo_data_dots") + ts("0", t["val"], "repo_data")
-                    + ts(" {", t["dim"]) + ts("Contributed", t["key"]) + ts(": ", t["dim"]) + ts("0", t["val"], "contrib_data")
-                    + ts("} | ", t["dim"]) + ts("Stars", t["key"]) + ts(" ... ", t["cc"], "star_data_dots") + ts("0", t["val"], "star_data"))
+            lead = ". Repos: "; nd = max(2, VAL_COL - len(lead))
+            p.append(f'<tspan x="{NEO_X}" y="{y}">' + ts(". ", t["dim"]) + ts("Repos", t["key"]) + ts(": ", t["dim"])
+                     + ts("." * nd + " ", t["cc"], "repo_data_dots") + ts("0", t["val"], "repo_data")
+                     + ts(" {", t["dim"]) + ts("Contributed", t["key"]) + ts(": ", t["dim"]) + ts("0", t["val"], "contrib_data")
+                     + ts("} | ", t["dim"]) + ts("Stars", t["key"]) + ts(" ... ", t["cc"], "star_data_dots") + ts("0", t["val"], "star_data") + "</tspan>")
         elif kind == "stat_commits":
-            row += (ts("Commits", t["key"]) + ts(" .. ", t["cc"], "commit_data_dots") + ts("0", t["val"], "commit_data")
-                    + ts(" | ", t["dim"]) + ts("Followers", t["key"]) + ts(" .. ", t["cc"], "follower_data_dots") + ts("0", t["val"], "follower_data"))
+            lead = ". Commits: "; nd = max(2, VAL_COL - len(lead))
+            p.append(f'<tspan x="{NEO_X}" y="{y}">' + ts(". ", t["dim"]) + ts("Commits", t["key"]) + ts(": ", t["dim"])
+                     + ts("." * nd + " ", t["cc"], "commit_data_dots") + ts("0", t["val"], "commit_data")
+                     + ts(" | ", t["dim"]) + ts("Followers", t["key"]) + ts(" .. ", t["cc"], "follower_data_dots") + ts("0", t["val"], "follower_data") + "</tspan>")
         elif kind == "stat_loc":
-            row += (ts("Lines of code", t["key"]) + ts(" . ", t["cc"], "loc_data_dots") + ts("0", t["val"], "loc_data")
-                    + ts(" ( ", t["dim"]) + ts("0", t["add"], "loc_add") + ts("++", t["add"]) + ts(", ", t["dim"])
-                    + ts(" ", t["cc"], "loc_del_dots") + ts("0", t["dele"], "loc_del") + ts("--", t["dele"]) + ts(" )", t["dim"]))
-        p.append(row + "</tspan>")
+            lead = ". Lines of code: "; nd = max(2, VAL_COL - len(lead))
+            p.append(f'<tspan x="{NEO_X}" y="{y}">' + ts(". ", t["dim"]) + ts("Lines of code", t["key"]) + ts(": ", t["dim"])
+                     + ts("." * nd + " ", t["cc"], "loc_data_dots") + ts("0", t["val"], "loc_data")
+                     + ts(" ( ", t["dim"]) + ts("0", t["add"], "loc_add") + ts("++", t["add"]) + ts(", ", t["dim"])
+                     + ts(" ", t["cc"], "loc_del_dots") + ts("0", t["dele"], "loc_del") + ts("--", t["dele"]) + ts(" )", t["dim"]) + "</tspan>")
         y += LH
     p.append("</text>")
-    # blinking terminal cursor (SMIL — GitHub-safe; solid if ever stripped)
-    p.append(f'<rect x="{NEO_X}" y="{y-FS+2}" width="8" height="{FS}" fill="{t["art"]}">'
-             f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" '
-             f'dur="1.06s" repeatCount="indefinite"/></rect>')
     p.append("</svg>")
     return "\n".join(p)
 
